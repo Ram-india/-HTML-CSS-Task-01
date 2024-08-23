@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwigley&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.volkhov-regular {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .pt-8{
+    padding-top: 8%;
+  }
+.flex-space-arround{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-flow:row nowrap;
+}
+.flex-space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow:row nowrap;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row nowrap; 
+}
+.flex-center-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:column nowrap; 
+}
+.pmy-fnt-clr{
+   color: #FA7436;
+}
+.pmy-bg{
+    background: #FA7436;
+}
+.menu > ul  {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row nowrap;
+    align-content: center;
+    gap:50px;
+}
+.menu > ul > li > a:link, a {
+   color:  #666666;
+    font-family: poppins;
+    font-size: 16px;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  .btn{
+    background: transparent;
+    padding: 4px 8px;
+    border: none;
+    font-size: 16px;
+  }
+  .active{
+    background: #FA7436;
+    color: #fff;
+    padding: 15px 30px;
+    
+    border-radius: 3px;
+  }
+.hero-section{
+    background: #FEFCFB;
+   
+}
+.banner{
+  padding: 7% 17% 0% 17%;
+}
+.banner-content > .content{ 
+    width:50%;
+    line-height:3vw;
+    color: #666666;
+
+}
+.content{
+  font-family: poppins;
+  color: #666666;
+}
+.content > h2{
+    font-family: "Volkhov";
+    font-size:3vw;
+    line-height: 3.5vw;
+    color: #000000;
+}
+.hero-img{
+    width:50%;
+}
+.hero-img > img {
+  
+  width: 100%;
+  
+}
+.hero-btn{
+  background: none;
+  padding: 1vw 1vw;
+  color: #FA7436;
+  border: 1px solid #FA7436;
+  border-radius: 2px;
+  font-size: 18px;
+  margin: 9% 1%;
+}
+.hero-filter{ 
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 4vw 1vw 4vw 1vw;  
+font-family: poppins;
+
+}
+.hero-filter > form{
+  -webkit-box-shadow: 0px 0px 8px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px -3px rgba(0,0,0,0.75);
+padding: 2% 2%;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.hero-filter > form > div > select{
+  border: none;
+  padding: 3% 2%;
+  text-transform: uppercase;
+  font-size: 16px;
+    font-weight: 600;
+}
+.hero-filter > form > div > p{
+  color: #666666;
+  
+}
+.text-center{
+  text-align: center;
+}
+.things-your-need{
+  font-family: poppins;
+  background: #F7F8FC;
+  background-repeat: no-repeat;
+  background-image: url(/public/Element.svg);
+  background-position: 89% 14%;
+  padding: 9% 10%;
+}
+
+.things-your-need  h3 {
+  font-weight: 500;;
+}
+ p {
+  color: #666666;
+}
+.box{
+  background: #ffffff;
+  width: 22%;
+    padding: 2.5% 2.5%;
+}
+.box:nth-child(-n + 3){
+  background-image: url(/public/Vector\ 4856.svg);
+}
+.box:nth-child(even){
+  background-image: url(/public/Vector\ 4856-1.svg);
+}
+.deals{
+  font-family: poppins;
+}
+.fnt-w-500{
+  font-weight: 500;
+}
+.card{
+  margin: 1% 1%;
+  border: 1px solid #c8c1c14a;
+  border-radius: 16px;
+}
+.card > .detail{
+  
+  padding: 0% 1% 12% 1%;
+}
+.card > .detail div{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 20;
+  padding: 0% 3%;
+}
+.card span{
+  margin: 0px 0px 0 9px;
+  color:#666666;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+.offer-price{
+  background: #FFE7DB;
+  color: #fa7436 !important;
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: 600;
+
+}
+.card-container {
+  padding: 4% 10%;
+}
+.slider-btn > .arrow{
+  border: 1px solid #80808075;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: x-large;
+    margin: 2px 20px;
+    cursor: grab;
+}
+.slider-btn > .right {
+  background: #FA7436;
+  color: #F7F8FC;
+  border: transparent;
+}
+.vacation-plan  .card {
+  border-radius: 16px;
+  font-family: poppins;
+}
+.vacation-plan .offer-price{
+  background: transparent;
+}
+.vacation-plan{
+  background: url(/public/coconut-element.svg);
+  background-repeat: no-repeat;
+  background-position: 75% 22%;
+}
+.vacation-plan .slider-btn{
+  display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 10% 0 0;
+}
+.people-about-us{
+  background: #F7F8FC; 
+}
+.people-about-us > div{
+background: #F7F8FC;  
+background: url(/public/testimonial-bg-element.svg);
+background-position: 96% 10%;
+background-repeat: no-repeat;
+}
+.people-about-us .row{
+
+    display: flex;
+    justify-content: center;
+    padding:9%;
+}
+.slider-btn-img{
+  padding: 20px 0px;
+}
+.blog-card{
+  display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width:19.5%;
+    cursor: pointer;
+    
+}
+.blog-card img{
+  width: fit-content;
+}
+.latest-blog  {
+  padding: 6% 9%;
+}
+.pt-4{
+  padding-top: 4%;
+}
+.blog-card .blog-title{
+  width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 5px 2px;
+}
+.subscription{
+  position: relative;
+}
+.mail-subs-container{
+  margin: 6% 9%;
+  background-color: #FA7436;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Volkhov";
+}
+.mail-subs-container h2{
+  font-size: 45px;
+}
+.pad-8-25{
+  padding: 8% 25%;
+}
+.mail-subs-container div {
+  background: url("/public/ripple-element.svg");
+  background-repeat: no-repeat;
+  
+  background-position: 2% 100%;
+}
+.mail-subs-container div div{
+  background: url("/public/coco-tree-element.svg");
+  background-repeat: no-repeat;
+  
+  background-position: 100% 2%;
+}
+footer{
+  margin-top: -20%;
+  font-family: poppins;
+  background: #F7F8FC;
+}
+footer > .row{
+  display:flex;
+  justify-content: space-around;
+  flex-flow:row nowrap;
+  padding: 25% 2% 1% 2%;
+}
+.links ul{
+  list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.links ul li{
+ padding: 10px 0px;
+}
+.foot{
+  display: flex;
+    justify-content: space-between;
+    padding: 15px 7%;
+}
